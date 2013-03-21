@@ -9,7 +9,7 @@ var zlib = require("zlib");
 
 
 
-function start(route, handle) {
+function start() {
   function onRequest(request, response) {
 	response.setHeader("Server", "NodeJS");
 
